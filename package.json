@@ -1,0 +1,23 @@
+{
+  "name": "sheep-jumper",
+  "version": "1.0.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "description": "Sheep Jumper - a 3D ligne-claire country road driving game about sheep, grannies and roadside assistance.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "build:single": "vite build --mode single",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@fontsource/bangers": "^5.3.0",
+    "@fontsource/comic-neue": "^5.3.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8",
+    "vite-plugin-singlefile": "^2.3.4"
+  }
+}
